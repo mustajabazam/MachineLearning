@@ -1,3 +1,11 @@
+""" 
+A preliminary Spam Classifier for emails, which implements Naive Bayes by using scikit-learn. The Pandas library is used for 
+database manipulation. The data consisted of two folders under "emails" in the working directory; one with "spam" emails, 
+and one with "ham" (legitimate) emails to train.
+
+"""
+
+
 import os
 import io
 from pandas import DataFrame
